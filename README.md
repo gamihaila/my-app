@@ -8,3 +8,9 @@ My example app
 mvn package
 mvn dependency:copy-dependencies
 '''
+
+## Run
+
+'''
+java -cp "target/*:target/dependency/*" org.example.app.HelloWorld
+'''
